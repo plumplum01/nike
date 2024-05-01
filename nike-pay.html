@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>nike-pay</title>
+</head>
+<body>
+    <header>
+        <div class="logo-img-wrapper">
+            <a href="./nike-shop.html"><img class="logo-img" src="./img/nike-logo.svg" style="flex: 1;" alt=""></a>
+        </div>
+        <div class="header-menu-set">
+        </div>
+        <div class="heart-img-wrapper">
+            <img src="./img/heart.svg" alt="">
+        </div>
+    </header>
+    <div class="col gap-xlarge">
+        <div class="top-banner-wrapper" style="background-color: var(--white) !important;">
+            <a href="">결제하기
+            </a>
+        </div>
+        <div class="row" style="justify-content: center; gap: 48px;">
+            <div class="option-wrapper col gap-xlarge">
+                <span class="font-20 bold">배송 옵션</span>
+                <div class="row gap-small">
+                    <a href="./nike-pay.html" class="pay-btn fill" id="pay-btn-active">배송</a>
+                    <a href="./nike-pay.html" class="pay-btn fill">매장픽업</a>
+                </div>
+                <div class="row gap-small">
+                    <input type="text" class="pay-btn fill" placeholder="성*">
+                    <input type="text" class="pay-btn fill" placeholder="이름*">
+                </div>
+                <div class="row gap-small">
+                    <input type="text" class="pay-btn fill" placeholder="주소 찾기: 도로명, 건물명 또는 지번으로 검색">
+                </div>
+                <div class="row gap-small">
+                    <input type="text" class="pay-btn fill" placeholder="전화번호*">
+                    <input type="text" class="pay-btn fill" placeholder="이메일*">
+                </div>
+                <div class="save-btn-wrapper">
+                    <a href="./nike-pay.html" class="round-btn" style="padding: 16px 32px !important; height: fit-content;">저장 및 계속</a>
+                </div>
+                <div class="col gap-xlarge">
+                    <div class="line"></div>
+                    <span class="link-tag">
+                        <a href="" id="pay-deco">결제</a>
+                    </span>
+                    <div class="line"></div>
+                    <span class="link-tag">
+                        <a href="" id="pay-deco">주문 완료</a>
+                    </span>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="cart-wrapper">
+                <div class="row space-between">
+                    <span class="font-20 bold">장바구니</span>
+                    <span class="link-tag">
+                        <a href="">변경</a>
+                    </span>
+                </div>
+                <div class="col gap-small">
+                    <div class="col gap-xsmall">
+                        <div class="row space-between">
+                            <span class="font-14 bold">상품금액</span>
+                            <span class="font-14">
+                                129,000 원
+                            </span>
+                        </div>
+                        <div class="row space-between">
+                            <span class="font-14 bold">배송비</span>
+                            <span class="font-14">
+                                0 원
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row space-between">
+                        <span class="font-14 bold">총 결제 금액</span>
+                        <span class="font-14">
+                            129,000 원
+                        </span>
+                    </div>
+                </div>
+                <span class="font-16 bold">5월 7일 (화)까지 도착 예정</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
